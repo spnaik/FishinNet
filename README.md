@@ -1,0 +1,2 @@
+# FishinNet
+Insight AI project
