@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+train
+test_stg1
+train.zip
+test_stg1.zip
+test_stg2.7z
+_MACOSX
+
