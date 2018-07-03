@@ -8,3 +8,17 @@ test_stg2.7z
 _MACOSX
 data_crop
 Train_Fish
+Train_fish.zip
+trial
+Notebook/train_kg
+Notebook/validation_kg
+Notebook/gray_image
+Notebook/first.jpg
+Notebook/annos
+K_means_aq.ipynb
+crop_aqb
+annotations.tgz 
+annotations
+code.tgz
+data_crop
+
