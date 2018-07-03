@@ -36,10 +36,12 @@ The data should have the following structure -
 
 Train
 
-   -Fish1
-   -Fish2 ...
+   -Fish1__
+   -Fish2__
+   ...
 
 Validation
 
-   -Fish1
-   -Fish2...
+   -Fish1__
+   -Fish2__
+   ...
