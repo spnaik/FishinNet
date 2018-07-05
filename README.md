@@ -24,11 +24,11 @@ Color Histograms are sensitive to noise and are not very robust as they don't ta
 
 VGG16 was chosen because has accurate smaller model architechture and honestly, I didn't feel the necessity to use deeper and wider models as the number of images are less.
 
-After defining the fully connected layer, I ImageNet pre-trained weight to the model
-For fine-tuning purpose, we truncate the original softmax layer and replace it with my own code snippet.
+After defining the fully connected layer, I load the ImageNet pre-trained weight to the model
+For fine-tuning purpose, I truncated the original softmax layer and replace it with my own code snippet.
 I freeze the weight for the first few layers so that they remain intact throughout the fine-tuning process.
 I fine-tune the model by minimizing a weighted cross entropy loss function using stochastic gradient descent algorithm.
-3. Public dataset
+### 3. Public dataset
 The motivation of using a third model is to design a pipeline to detect the fish in the image and classify. For this I am using a public dataset provided by Kaggle.
 
 ### Data
