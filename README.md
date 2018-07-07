@@ -11,7 +11,7 @@ This project is in consultation with Aquabyte, a fish-farming company. 35% of a 
 
 ## Installation
 The python package dependencies for this project can be found in installation.txt. For Installation -
-*pip install -r installation.txt*
+*pip install -r requirement.txt*
 
 ## Three models
 I have tried three models for individual fish identification and also species classification. All the codes can be found in the Notebook folder.
