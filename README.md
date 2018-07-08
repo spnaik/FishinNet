@@ -31,17 +31,19 @@ I fine-tune the model by minimizing a weighted cross entropy loss function using
 ### 3. Public dataset
 The motivation of using a third model is to design a pipeline to detect the fish in the image and classify. For this I am using a public dataset provided by Kaggle.
 
-### Data
-The data should have the following structure -
+### Sampleimages
+The sample images folder should have the following structure -
 
-Train
+- train
 
-   -Fish1<br />
-   -Fish2<br />
-   ...
+    -Fish1<br />
+    -Fish2<br />
+    ...
 
-Validation
+- validation
 
-   -Fish1<br />
-   -Fish2<br />
-   ...
+    -Fish1<br />
+    -Fish2<br />
+     ...
+### Data 
+The data folder contains the csv files for both training and validation.  Also, the generated tf records created using the code generate_tfrecord.py
