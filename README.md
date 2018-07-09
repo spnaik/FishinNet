@@ -46,4 +46,22 @@ The sample images folder should have the following structure -
     -Fish2<br />
      ...
 ## Data 
-The data folder contains the csv files for both training and validation.  Also, the generated tf records created using the code generate_tfrecord.py
+The data folder contains the csv files for both training and validation.  Also, the generated tf records created using the code generate_tfrecord.py. Due to space constraints I could not add the tf record files. To generate the files in data folder, execute the following two commands 
+
+-python xml_to_csv.py<br />
+-python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record<br />
+-python generate_tfrecord.py --csv_input=data/validation_labels.csv  --output_path=data/validation.record<br />
+
+## Example run
+The custom fish detector is using tensorflow pretrained models.
+
+python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+
+## Folder explanation 
+1. Notebook - all ipynb files containing the above explained models
+2. Scripts  - all extra python scripts that I have used
+3. data     - contains the generated csv files and tf record files
+
+
+
+
